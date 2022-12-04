@@ -112,7 +112,9 @@ public class StudentLoginPage extends javax.swing.JFrame {
         String passwordInput = passwordField.getText();
         try{
             Class.forName("com.mysql.jdbc.Driver");
+
             Connection StudentConnection = DriverManager.getConnection("jdbc:mysql://192.168.161.158:3306/finalproject","root", "");
+
             Statement StudentStatement = (Statement) StudentConnection.createStatement();
             String StudentSql = ("Select * from student_info");
 
@@ -192,9 +194,11 @@ public class StudentLoginPage extends javax.swing.JFrame {
     private javax.swing.JButton logIn;
     private javax.swing.JTextField passwordField;
 
+
     public static javax.swing.JTextField usernameField;
 
     private javax.swing.JTextField usernameField;
+
 
     // End of variables declaration//GEN-END:variables
 }

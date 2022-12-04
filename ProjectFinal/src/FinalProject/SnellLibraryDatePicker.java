@@ -39,7 +39,9 @@ public class SnellLibraryDatePicker extends javax.swing.JFrame {
         
     }
 
+
     
+
 
 
     /**
@@ -160,9 +162,11 @@ public class SnellLibraryDatePicker extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton BookDate;
 
+
     public static com.toedter.calendar.JDateChooser BookingDate;
 
     private com.toedter.calendar.JDateChooser BookingDate;
+
 
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
