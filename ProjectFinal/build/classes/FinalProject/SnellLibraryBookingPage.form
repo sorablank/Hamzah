@@ -1133,9 +1133,7 @@
           <Events>
             <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="T2S1StateChanged"/>
 
-
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="T2S1ActionPerformed"/>
-
 
           </Events>
           <Constraints>
@@ -3212,11 +3210,9 @@
             <Property name="text" type="java.lang.String" value="jLabel1"/>
           </Properties>
 
-
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="26"/>
           </AuxValues>
-
 
 
           <Constraints>
@@ -3225,7 +3221,6 @@
             </Constraint>
           </Constraints>
         </Component>
-
 
         <Component class="javax.swing.JTextField" name="seatNumber">
           <Properties>
@@ -3240,7 +3235,6 @@
             </Constraint>
           </Constraints>
         </Component>
-
 
 
       </SubComponents>
